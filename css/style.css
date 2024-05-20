@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin: 0; */
+  }
+  
+
+  
+  .Userinput, .output {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  .container {
+    background-color: rgb(255, 191, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4c65af;
+    color: white;
+     border: 2px navy;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
